@@ -1,0 +1,18 @@
+Description:
+1.The largest number that can be made a palindrome from two 3 digit number is a six digit number.
+2.By multiplying the range 100-999 with itself, it is possible to get a six digit number.
+3.Each multiplication of the above range is checked by converting the resulting number to string and checking if the length is 6.
+4.The first 3 digits are matched with the last 3 digits.
+5.If all digits are matched the number is a palindrome.
+6.The largest palindrome which is a six digit number is determined by using Max() function
+Algorithm:
+step1:start
+step2:Create an empty list named palindromes.
+step3:initialize i in the range of 100-999
+step4:Use the split function to calculate the multiplication of above range of numbers with each other as num.
+step5:check if the length of the number is equal to 6.
+step6:if step  is right proceed to step 
+step6:check the first 3 digits with corresponding last digits.
+step7:if the condition in step  fulfils add the number num to the list palindromes
+step8:print the maximum value of the list palindromes.
+step9:end
